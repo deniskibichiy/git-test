@@ -16,3 +16,29 @@ Display entries of changes made to the project, including the commit message, th
 git push: uploads the project files to the GitHub repository of the project.
 ### git push origin main
 Used for specificity if the project you are working on has another branch or a different remote. To learn more about this down the Odin curriculum.
+
+# Git Cheatsheet for beginnners
+1. Commands related to the remote repository
+    ```
+    git clone
+    git push
+2. Commands related to workflow
+    ```
+    git add .
+    git commit -m "A message describing what has been done to make this snapshot different"
+3. Commands related to checking status or log history
+    ```
+    git status
+    git log
+4. Basic Git syntax
+Program | action | destination e.g. 
+    ```
+    git | add | .
+    git | commit -m | message
+
+# Git Best Practices
+* Atomic commits. Make commits to include changes related to only one feature or task of the program.
+* Leveraging the atomic commits to make commit messages more useful. 
+These two practices:
+    - Easy to revert a specific change without losing other changes
+    - Facilitates writing of better commit messages.
