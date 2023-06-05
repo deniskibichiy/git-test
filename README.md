@@ -12,5 +12,7 @@ Git takes a snapshot of the project in the project in the staging area and store
 It is during this time that Git takes a snapshot of the project's current state and sores
 ## Git log
 Display entries of changes made to the project, including the commit message, the author making the commit, the date, and the time of the commit.
-
-
+## Git push
+git push: uploads the project files to the GitHub repository of the project.
+### git push origin main
+Used for specificity if the project you are working on has another branch or a different remote. To learn more about this down the Odin curriculum.
